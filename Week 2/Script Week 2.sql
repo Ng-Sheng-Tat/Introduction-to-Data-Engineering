@@ -1,0 +1,20 @@
+CREATE TABLE BookShop_AuthorDetails
+AS
+(SELECT DISTINCT AUTHOR_ID, AUTHOR_NAME, AUTHOR_BIO FROM BookShop)
+WITH DATA;
+
+SELECT * FROM BookShop_AuthorDetails;
+
+--ALTER TABLE BookShop
+--DROP COLUMN AUTHOR_NAME
+--DROP COLUMN AUTHOR_BIO;
+--
+--SELECT * FROM BookShop;
+
+--Call Sysproc.admin_cmd ('reorg Table BookShop');
+--
+--ALTER TABLE BookShop
+--ADD CONSTRAINT fk_BookShop FOREIGN KEY (AUTHOR_ID)
+--    REFERENCES BookShop_AuthorDetails(AUTHOR_ID)
+--    ON UPDATE NO ACTION
+--    ON DELETE NO ACTION;

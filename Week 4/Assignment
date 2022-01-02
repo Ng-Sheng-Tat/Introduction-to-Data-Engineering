@@ -1,0 +1,12 @@
+Question 1
+An OLTP system is an accessible data processing system in today's enterprises. Some examples of OLTP systems include order entry, retail sales, and financial transaction systems.
+
+Question 2
+1. Data Ingestion or Data Collection Layer
+2. Data Storage and Integration Layer
+3. Data Processing Layer
+
+Question 3
+1. Data type
+2. Frequency of retrieval or update
+3. Cost
